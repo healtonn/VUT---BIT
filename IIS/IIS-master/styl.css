@@ -1,0 +1,260 @@
+/*DEFAULT MARGIN 0*/
+* {
+    margin: 0;
+}
+
+div {
+    margin: 0 auto;
+}
+
+
+/*HLAVNI LAYOUT*/
+.main_container {
+	height:100%;
+	width:100%;
+	background-color:lightgrey;
+}
+
+
+/*ZAHLAVI*/
+.zahlavi {
+	height:150px;
+	width:100%;
+	color:white;
+	background-color:black;
+	margin:auto;
+	padding:auto;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.zahlavi_nadpis {
+	line-height:150px;
+	vertical-align:middle;
+	text-align:center;
+}
+
+
+/*MENU*/
+.menu {
+	float:left;
+	width:15%;
+	height:700px;
+	background-color:silver;
+	padding:0px;
+}
+
+.menu ul {
+	float:left;
+	width:100%;
+	height:100%;
+    display: block;
+    list-style-type: none;
+	background-color:#4e4e52;
+	vertical-align:middle;
+    margin: 0;
+	padding: 0;
+}
+
+.menu ul li {
+	display:block;
+	padding:20px 0px 20px 0px;
+	text-align:center;
+	vertical-align:middle;
+}
+
+/*unvisited*/
+.menu ul li a:link {
+	color:#ff6600;
+	text-decoration: none;
+	font-size:20px;
+	font-weight:bold;
+}
+
+/*visited*/
+.menu ul li a:visited {
+	color:#ff6600;
+	text-decoration: none;
+	font-size:20px;
+	font-weight:bold;
+}
+
+/*mouse over link*/
+.menu ul li a:hover {
+	color:#ff0000;
+	text-decoration: none;
+	font-size:20px;
+	font-weight:bold;
+}
+
+/*selected link*/
+.menu ul li a:active {
+	color:white;
+	background-color:#ff0000;
+	text-decoration: none;
+	font-size:20px;
+	font-weight:bold;
+}
+
+
+/*OBSAH stranky*/
+.layout_content_wrap {
+	width: 100%;
+	height:700px;
+	background-color: lightgrey;
+	padding:0px;
+}
+
+.layout_content_outer {
+	float:left;
+	display:table;
+	height:700px;
+	width:85%;
+	background-color:lightgrey;
+}
+
+.layout_content_middle {
+	display: table-cell;
+    vertical-align: middle;
+}
+
+.layout_content_inner {
+	text-align:center;
+	vertical-align:middle;
+	margin-left: auto;
+    margin-right: auto; 
+	width:100%;
+}
+
+.prihlaseni {
+	text-align:center;
+    margin: auto;
+	max-width:100%;
+	border-style:solid;
+	border-color:black;
+	border-width:2px;
+}
+
+
+/*NASE MISTNOSTI*/
+.mistnosti {
+	width:60%;
+}
+
+.nase_mistnosti {
+	width:80%;
+}
+
+/*unvisited*/
+.nase_mistnosti tr td a:link {
+	color:#0000ff;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+/*visited*/
+.nase_mistnosti tr td a:visited {
+	color:#0000ff;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+/*mouse over link*/
+.nase_mistnosti tr td a:hover {
+	color:white;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+/*selected link*/
+.nase_mistnosti tr td a:active {
+	color:white;
+	font-weight:bold;
+	background-color:#0000ff;
+	text-decoration: none;
+}
+
+
+/*REGISTRACE*/
+.registrovat_jako {
+	width:100%;
+	list-style-type:none;
+}
+
+/*unvisited*/
+.registrovat_jako li a:link {
+	color:#0000ff;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+/*visited*/
+.registrovat_jako li a:visited {
+	color:#0000ff;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+/*mouse over link*/
+.registrovat_jako li a:hover {
+	color:white;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+/*selected link*/
+.registrovat_jako li a:active {
+	color:white;
+	font-weight:bold;
+	background-color:#0000ff;
+	text-decoration: none;
+}
+
+
+/*ZAMESTNANEC*/
+.zamestnanec_vypis_mistnosti {
+	width:100%;
+}
+
+.zamestnanec_spravovat_expozice {
+	width:100%;
+}
+
+/*ZAKAZNIK*/
+.zakaznik_spravovat_expozice {
+	width:70%;
+}
+
+
+/**/
+.mista {
+	background-color: white;
+	color: black;
+	text-align: center;
+}
+
+
+/*OZNACENI POVINNYCH INPUT POLZOEK*/
+.povin {
+	color:red;
+}
+
+
+/*ZAPATI*/
+.zapati {
+    position:fixed;
+    height:100px;
+	width:100%;
+    background-color:black;
+	color:white;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;
+}
+
+.zapati_nadpis {
+	line-height:100px;
+	vertical-align:middle;
+	text-align:center;
+}

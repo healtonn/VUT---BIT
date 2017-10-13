@@ -1,0 +1,9 @@
+.metadata/*
+dserver/.cproject
+RemoteSystemsTempFiles/.project
+dserver/.project
+dserver/.gitignore
+dserver/.settings/*
+dserver/src/dserver
+dserver/src/test
+dserver/src/manual.pdf

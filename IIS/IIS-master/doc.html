@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-2"/>
+    <title>Projekt IIS</title>
+    <style type="text/css">
+    	table { border-collapse: collapse; }
+    	td, th { border: 1px solid black; padding: 0.3em 0.5em; text-align: left; }
+    	dt { font-weight: bold; margin-top: 0.5em; }
+    </style>
+</head>
+<body>
+
+<!-- Zkontrolujte prosím nastavení kódování v hlavičce dokumentu 
+     podle použitého editoru -->
+
+<h1>Galerie</h1> <!-- Nahradte názvem svého zadání -->
+
+<dl>
+	<dt>Autoři</dt>
+	<dd>Jakub Jochlík <!-- Nahraďte skutečným jménem a e-mailem autora a popisem činnosti -->
+	    <a href="mailto:xjochl00@stud.fit.vutbr.cz">xjochl00@stud.fit.vutbr.cz</a> -
+	</dd>
+	<dd>Filip Šťastný <!-- Nahraďte skutečným jménem a e-mailem autora a popisem činnosti -->
+	    <a href="mailto:xstast24@stud.fit.vutbr.cz">xstast24@stud.fit.vutbr.cz</a> - 
+	</dd>
+	<dt>URL aplikace</dt>
+	<dd><a href="http://www.stud.fit.vutbr.cz/~xjochl00">http://www.stud.fit.vutbr.cz/~xjochl00</a></dd>
+</dl>
+
+<h2>Uživatelé systému pro testování</h2>
+<table>
+<tr><th>Login</th><th>Heslo</th><th>Role</th></tr>
+<tr><td>KarlenkoK</td><td>vedouci</td><td>Administrátor</td></tr>
+<tr><td>DemeterD</td><td>zamestnanec</td><td>Zaměstnanec</td></tr>
+<tr><td>ZborilB</td><td>zakaznik</td><td>Zákazník</td></tr>
+</table>
+
+<h2>Implementace</h2>
+<p>Projekt je rozdělen na funkční celky do jednotlivých souborů. Každá role má svůj vlastní soubor.Práce s databází probíhá převážně pomocí souboru edit_table.php</p><br>
+<p>Pomocí souboru index probíhá prvotní načtení stránky a kontrola přihlášených uživatelů. Podle role přihlášeného uživatele je poté zobrazen obsah stránky.</p>
+
+<h2>Instalace</h2>
+<ul>
+<li>Databáze je umístěna na školním databázovém serveru. Žádná instalace by neměla být nutná, stačí pouze přejít na zmíněné URL aplikace</li>
+</ul>
+
+<h2>Známé problémy</h2>
+<p>Vzhledem k tomu, že galerie byla vytvořena pouze s dvěmi místnostmi, aplikace nekontroluje volnost vybíraných míst</p>
+
+</body>
+</html>
